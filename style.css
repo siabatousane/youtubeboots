@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    position: fixed;
+    z-index: 1;
+}
+
+.chip{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color:  rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    border-radius: 25px;
+}
+
+.chip.active{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:780px) {
+    .nav-pills{
+       display: none;
+    }
+}
